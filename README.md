@@ -70,4 +70,5 @@ Concatenating this gives `00060602` which as a number is `60602`, so the village
 `assets\minecraft\models\item\villager_parent\villager.json` is the parent to all models and can be used to modify the display of the villagers.
 
 ## Credit
+Use this for whatever you want.
 Made by McTsts. Credit is not required but appreciated.
