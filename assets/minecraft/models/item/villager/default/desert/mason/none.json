@@ -1,0 +1,8 @@
+{
+	"credit": "Made by McTsts with Blockbench",
+	"textures": {
+		"type": "entity/villager/type/desert",
+		"profession_level": "entity/villager/profession_level/none"
+	},
+	"parent": "item/villager_parent/default/profession/mason"
+}
