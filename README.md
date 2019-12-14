@@ -6,8 +6,6 @@ This resource pack has a model for every villager that is in the game as well as
 This pack includes all combination of types, professions, and profession levels, where each of those can also be none.
 
 ## How to Use
-
-## Villager ID
 A villager model can be obtained by using
 > give @s minecraft:emerald{CustomModelData:**VILLAGER ID**}
 
