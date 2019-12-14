@@ -5,6 +5,8 @@ A Minecraft Resource Pack which has a models for villagers!
 This resource pack has a model for every villager that is in the game as well as some combinations that don't appear in Minecraft.
 This pack includes all combination of types, professions, and profession levels, where each of those can also be none.
 
+![alt text](https://github.com/McTsts/Villager-Models/blob/master/models.png)
+
 ## How to Use
 A villager model can be obtained by using
 > give @s minecraft:emerald{CustomModelData:**VILLAGER ID**}
