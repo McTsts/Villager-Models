@@ -65,3 +65,9 @@ Concatenating this gives `00060602` which as a number is `60602`, so the village
 - 03 Gold
 - 04 Emerald
 - 05 Diamond
+
+## How to modify
+`assets\minecraft\models\item\villager_parent\villager.json` is the parent to all models and can be used to modify the display of the villagers.
+
+## Credit
+Made by McTsts. Credit is not required but appreciated.
