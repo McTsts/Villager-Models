@@ -1,5 +1,5 @@
 # Villager-Models
-A Minecraft Resource Pack which has a models for villagers!
+A Minecraft Resource Pack which has all models for villagers!
 
 ## Contents
 This resource pack has a model for every villager that is in the game as well as some combinations that don't appear in Minecraft.
