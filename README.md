@@ -6,6 +6,7 @@ This resource pack has a model for every villager that is in the game as well as
 This pack includes all combination of types, professions, and profession levels, where each of those can also be none.
 
 ![alt text](https://github.com/McTsts/Villager-Models/blob/master/models.png)
+Each row is one type. Bottom is model version, above is minecraft version (if it exists).
 
 ## How to Use
 A villager model can be obtained by using
