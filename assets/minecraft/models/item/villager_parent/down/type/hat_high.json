@@ -1,0 +1,411 @@
+{
+	"credit": "Made by McTsts with Blockbench",
+	"parent": "item/villager_parent/villager",
+	"textures": {
+		"villager": "entity/villager/villager"
+	},
+	"elements": [
+		{
+			"name": "Villager_Robe",
+			"from": [3.9, 1.9, 4.9],
+			"to": [12.1, 21.1, 11.1],
+			"faces": {
+				"north": {"uv": [1.5, 11, 3.5, 16], "texture": "#villager"},
+				"east": {"uv": [0, 11, 1.5, 16], "texture": "#villager"},
+				"south": {"uv": [5, 11, 7, 16], "texture": "#villager"},
+				"west": {"uv": [3.5, 11, 5, 16], "texture": "#villager"},
+				"up": {"uv": [1.5, 9.5, 3.5, 11], "texture": "#villager"},
+				"down": {"uv": [3.5, 9.5, 5.5, 11], "texture": "#villager"}
+			}
+		},
+		{
+			"name": "Villager_LeftLeg",
+			"from": [4.5, 0, 6],
+			"to": [8, 12, 10],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 9, 8]},
+			"faces": {
+				"north": {"uv": [1, 6.5, 2, 9.5], "texture": "#villager"},
+				"east": {"uv": [0, 6.5, 1, 9.5], "texture": "#villager"},
+				"south": {"uv": [3, 6.5, 4, 9.5], "texture": "#villager"},
+				"west": {"uv": [2, 6.5, 3, 9.5], "texture": "#villager"},
+				"up": {"uv": [1, 5.5, 2, 6.5], "texture": "#villager"},
+				"down": {"uv": [2, 5.5, 3, 6.5], "texture": "#villager"}
+			}
+		},
+		{
+			"name": "Villager_RightLeg",
+			"from": [8, 0, 6],
+			"to": [11.5, 12, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9, 8]},
+			"faces": {
+				"north": {"uv": [1, 6.5, 2, 9.5], "texture": "#villager"},
+				"east": {"uv": [0, 6.5, 1, 9.5], "texture": "#villager"},
+				"south": {"uv": [3, 6.5, 4, 9.5], "texture": "#villager"},
+				"west": {"uv": [2, 6.5, 3, 9.5], "texture": "#villager"},
+				"up": {"uv": [1, 5.5, 2, 6.5], "texture": "#villager"},
+				"down": {"uv": [2, 5.5, 3, 6.5], "texture": "#villager"}
+			}
+		},
+		{
+			"name": "Villager_LeftArm",
+			"from": [0, 14, 9],
+			"to": [4, 18, 17],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [14, 5.5, 13, 6.5], "texture": "#villager"},
+				"east": {"uv": [14, 6.5, 13, 8.5], "rotation": 270, "texture": "#villager"},
+				"south": {"uv": [13, 5.5, 12, 6.5], "texture": "#villager"},
+				"west": {"uv": [12, 6.5, 11, 8.5], "rotation": 90, "texture": "#villager"},
+				"up": {"uv": [13, 6.5, 12, 8.5], "rotation": 180, "texture": "#villager"},
+				"down": {"uv": [15, 6.5, 14, 8.5], "texture": "#villager"}
+			}
+		},
+		{
+			"name": "Villager_RightArm",
+			"from": [12, 14, 9],
+			"to": [16, 18, 17],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [13, 5.5, 14, 6.5], "texture": "#villager"},
+				"east": {"uv": [11, 6.75, 12, 8.75], "rotation": 270, "texture": "#villager"},
+				"south": {"uv": [12, 5.5, 13, 6.5], "texture": "#villager"},
+				"west": {"uv": [13, 6.5, 14, 8.5], "rotation": 90, "texture": "#villager"},
+				"up": {"uv": [12, 6.5, 13, 8.5], "rotation": 180, "texture": "#villager"},
+				"down": {"uv": [14, 6.5, 15, 8.5], "texture": "#villager"}
+			}
+		},
+		{
+			"name": "Villager_Arms",
+			"from": [4, 14, 9],
+			"to": [12, 18, 13],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [14, 10.5, 16, 11.5], "texture": "#villager"},
+				"east": {"uv": [10, 10.5, 11, 11.5], "texture": "#villager"},
+				"south": {"uv": [11, 10.5, 13, 11.5], "rotation": 180, "texture": "#villager"},
+				"west": {"uv": [13, 10.5, 14, 11.5], "texture": "#villager"},
+				"up": {"uv": [11, 9.5, 13, 10.5], "rotation": 180, "texture": "#villager"},
+				"down": {"uv": [13, 9.5, 15, 10.5], "texture": "#villager"}
+			}
+		},
+		{
+			"name": "Villager_Head",
+			"from": [4, 21, 4],
+			"to": [12, 31, 12],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 21, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4.5], "texture": "#villager"},
+				"east": {"uv": [0, 2, 2, 4.5], "texture": "#villager"},
+				"south": {"uv": [6, 2, 8, 4.5], "texture": "#villager"},
+				"west": {"uv": [4, 2, 6, 4.5], "texture": "#villager"},
+				"up": {"uv": [2, 0, 4, 2], "rotation": 180, "texture": "#villager"},
+				"down": {"uv": [4, 0, 6, 2], "texture": "#villager"}
+			}
+		},
+		{
+			"name": "Villager_Nose",
+			"from": [7, 20, 2],
+			"to": [9, 24, 4],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 21, 8]},
+			"faces": {
+				"north": {"uv": [6.5, 0.5, 7, 1.5], "texture": "#villager"},
+				"east": {"uv": [6, 0.5, 6.5, 1.5], "texture": "#villager"},
+				"south": {"uv": [7.5, 0.5, 8, 1.5], "texture": "#villager"},
+				"west": {"uv": [7, 0.5, 7.5, 1.5], "texture": "#villager"},
+				"up": {"uv": [6.5, 0, 7, 0.5], "texture": "#villager"},
+				"down": {"uv": [7, 0, 7.5, 0.5], "texture": "#villager"}
+			}
+		},
+		{
+			"name": "Villager_Body",
+			"from": [4, 10, 5],
+			"to": [12, 21, 11],
+			"faces": {
+				"north": {"uv": [5.5, 6.5, 7.5, 9.5], "texture": "#villager"},
+				"east": {"uv": [4, 6.5, 5.5, 9.5], "texture": "#villager"},
+				"south": {"uv": [9, 6.5, 11, 9.5], "texture": "#villager"},
+				"west": {"uv": [7.5, 6.5, 9, 9.5], "texture": "#villager"},
+				"up": {"uv": [5.5, 5, 7.5, 6.5], "texture": "#villager"},
+				"down": {"uv": [7.5, 5, 9.5, 6.5], "texture": "#villager"}
+			}
+		},
+		{
+			"name": "Type_Robe",
+			"from": [3.89, 1.89, 4.89],
+			"to": [12.11, 21.11, 11.11],
+			"faces": {
+				"north": {"uv": [1.5, 11, 3.5, 16], "texture": "#type"},
+				"east": {"uv": [0, 11, 1.5, 16], "texture": "#type"},
+				"south": {"uv": [5, 11, 7, 16], "texture": "#type"},
+				"west": {"uv": [3.5, 11, 5, 16], "texture": "#type"},
+				"up": {"uv": [1.5, 9.5, 3.5, 11], "texture": "#type"},
+				"down": {"uv": [3.5, 9.5, 5.5, 11], "texture": "#type"}
+			}
+		},
+		{
+			"name": "Type_LeftLeg",
+			"from": [4.49, -0.01, 5.99],
+			"to": [8.01, 12.01, 10.01],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 9, 8]},
+			"faces": {
+				"north": {"uv": [1, 6.5, 2, 9.5], "texture": "#type"},
+				"east": {"uv": [0, 6.5, 1, 9.5], "texture": "#type"},
+				"south": {"uv": [3, 6.5, 4, 9.5], "texture": "#type"},
+				"west": {"uv": [2, 6.5, 3, 9.5], "texture": "#type"},
+				"up": {"uv": [1, 5.5, 2, 6.5], "texture": "#type"},
+				"down": {"uv": [2, 5.5, 3, 6.5], "texture": "#type"}
+			}
+		},
+		{
+			"name": "Type_RightLeg",
+			"from": [7.99, -0.01, 5.99],
+			"to": [11.51, 12.01, 10.01],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9, 8]},
+			"faces": {
+				"north": {"uv": [1, 6.5, 2, 9.5], "texture": "#type"},
+				"east": {"uv": [0, 6.5, 1, 9.5], "texture": "#type"},
+				"south": {"uv": [3, 6.5, 4, 9.5], "texture": "#type"},
+				"west": {"uv": [2, 6.5, 3, 9.5], "texture": "#type"},
+				"up": {"uv": [1, 5.5, 2, 6.5], "texture": "#type"},
+				"down": {"uv": [2, 5.5, 3, 6.5], "texture": "#type"}
+			}
+		},
+		{
+			"name": "Type_LeftArm",
+			"from": [-0.01, 13.99, 8.99],
+			"to": [4.01, 18.01, 17.01],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [14, 5.5, 13, 6.5], "texture": "#type"},
+				"east": {"uv": [14, 6.5, 13, 8.5], "rotation": 270, "texture": "#type"},
+				"south": {"uv": [13, 5.5, 12, 6.5], "texture": "#type"},
+				"west": {"uv": [12, 6.5, 11, 8.5], "rotation": 90, "texture": "#type"},
+				"up": {"uv": [13, 6.5, 12, 8.5], "rotation": 180, "texture": "#type"},
+				"down": {"uv": [15, 6.5, 14, 8.5], "texture": "#type"}
+			}
+		},
+		{
+			"name": "Type_RightArm",
+			"from": [11.99, 13.99, 8.99],
+			"to": [16.01, 18.01, 17.01],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [13, 5.5, 14, 6.5], "texture": "#type"},
+				"east": {"uv": [11, 6.5, 12, 8.5], "rotation": 270, "texture": "#type"},
+				"south": {"uv": [12, 5.5, 13, 6.5], "texture": "#type"},
+				"west": {"uv": [13, 6.5, 14, 8.5], "rotation": 90, "texture": "#type"},
+				"up": {"uv": [12, 6.5, 13, 8.5], "rotation": 180, "texture": "#type"},
+				"down": {"uv": [14, 6.5, 15, 8.5], "texture": "#type"}
+			}
+		},
+		{
+			"name": "Type_Arms",
+			"from": [3.99, 13.99, 8.99],
+			"to": [12.01, 18.01, 13.01],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [14, 10.5, 16, 11.5], "texture": "#type"},
+				"east": {"uv": [10, 10.5, 11, 11.5], "texture": "#type"},
+				"south": {"uv": [11, 10.5, 13, 11.5], "rotation": 180, "texture": "#type"},
+				"west": {"uv": [13, 10.5, 14, 11.5], "texture": "#type"},
+				"up": {"uv": [11, 9.5, 13, 10.5], "rotation": 180, "texture": "#type"},
+				"down": {"uv": [13, 9.5, 15, 10.5], "texture": "#type"}
+			}
+		},
+		{
+			"name": "Type_Head",
+			"from": [3.99, 20.99, 3.99],
+			"to": [12.01, 31.01, 12.01],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 21, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4.5], "texture": "#type"},
+				"east": {"uv": [0, 2, 2, 4.5], "texture": "#type"},
+				"south": {"uv": [6, 2, 8, 4.5], "texture": "#type"},
+				"west": {"uv": [4, 2, 6, 4.5], "texture": "#type"},
+				"up": {"uv": [2, 0, 4, 2], "texture": "#type"},
+				"down": {"uv": [4, 0, 6, 2], "texture": "#type"}
+			}
+		},
+		{
+			"name": "Type_Body",
+			"from": [3.99, 9.99, 4.99],
+			"to": [12.01, 21.01, 11.01],
+			"faces": {
+				"north": {"uv": [5.5, 6.5, 7.5, 9.5], "texture": "#type"},
+				"east": {"uv": [4, 6.5, 5.5, 9.5], "texture": "#type"},
+				"south": {"uv": [9, 6.5, 11, 9.5], "texture": "#type"},
+				"west": {"uv": [7.5, 6.5, 9, 9.5], "texture": "#type"},
+				"up": {"uv": [5.5, 5, 7.5, 6.5], "texture": "#type"},
+				"down": {"uv": [7.5, 5, 9.5, 6.5], "texture": "#type"}
+			}
+		},
+		{
+			"name": "Profession_Robe",
+			"from": [3.88, 1.88, 4.88],
+			"to": [12.12, 21.12, 11.12],
+			"faces": {
+				"north": {"uv": [1.5, 11, 3.5, 16], "texture": "#profession"},
+				"east": {"uv": [0, 11, 1.5, 16], "texture": "#profession"},
+				"south": {"uv": [5, 11, 7, 16], "texture": "#profession"},
+				"west": {"uv": [3.5, 11, 5, 16], "texture": "#profession"},
+				"up": {"uv": [1.5, 9.5, 3.5, 11], "texture": "#profession"},
+				"down": {"uv": [3.5, 9.5, 5.5, 11], "texture": "#profession"}
+			}
+		},
+		{
+			"name": "Profession_LeftLeg",
+			"from": [4.48, -0.02, 5.98],
+			"to": [8.02, 12.02, 10.02],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 9, 8]},
+			"faces": {
+				"north": {"uv": [1, 6.5, 2, 9.5], "texture": "#profession"},
+				"east": {"uv": [0, 6.5, 1, 9.5], "texture": "#profession"},
+				"south": {"uv": [3, 6.5, 4, 9.5], "texture": "#profession"},
+				"west": {"uv": [2, 6.5, 3, 9.5], "texture": "#profession"},
+				"up": {"uv": [1, 5.5, 2, 6.5], "texture": "#profession"},
+				"down": {"uv": [2, 5.5, 3, 6.5], "texture": "#profession"}
+			}
+		},
+		{
+			"name": "Profession_RightLeg",
+			"from": [7.98, -0.02, 5.98],
+			"to": [11.52, 12.02, 10.02],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9, 8]},
+			"faces": {
+				"north": {"uv": [1, 6.5, 2, 9.5], "texture": "#profession"},
+				"east": {"uv": [0, 6.5, 1, 9.5], "texture": "#profession"},
+				"south": {"uv": [3, 6.5, 4, 9.5], "texture": "#profession"},
+				"west": {"uv": [2, 6.5, 3, 9.5], "texture": "#profession"},
+				"up": {"uv": [1, 5.5, 2, 6.5], "texture": "#profession"},
+				"down": {"uv": [2, 5.5, 3, 6.5], "texture": "#profession"}
+			}
+		},
+		{
+			"name": "Profession_LeftArm",
+			"from": [-0.02, 13.98, 8.98],
+			"to": [4.02, 18.02, 17.02],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [14, 5.5, 13, 6.5], "texture": "#profession"},
+				"east": {"uv": [14, 6.5, 13, 8.5], "rotation": 270, "texture": "#profession"},
+				"south": {"uv": [13, 5.5, 12, 6.5], "texture": "#profession"},
+				"west": {"uv": [12, 6.5, 11, 8.5], "rotation": 90, "texture": "#profession"},
+				"up": {"uv": [13, 6.5, 12, 8.5], "rotation": 180, "texture": "#profession"},
+				"down": {"uv": [15, 6.5, 14, 8.5], "texture": "#profession"}
+			}
+		},
+		{
+			"name": "Profession_RightArm",
+			"from": [11.98, 13.98, 8.98],
+			"to": [16.02, 18.02, 17.02],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [13, 5.5, 14, 6.5], "texture": "#profession"},
+				"east": {"uv": [11, 6.5, 12, 8.5], "rotation": 270, "texture": "#profession"},
+				"south": {"uv": [12, 5.5, 13, 6.5], "texture": "#profession"},
+				"west": {"uv": [13, 6.5, 14, 8.5], "rotation": 90, "texture": "#profession"},
+				"up": {"uv": [12, 6.5, 13, 8.5], "rotation": 180, "texture": "#profession"},
+				"down": {"uv": [14, 6.5, 15, 8.5], "texture": "#profession"}
+			}
+		},
+		{
+			"name": "Profession_Arms",
+			"from": [3.98, 13.98, 8.98],
+			"to": [12.02, 18.02, 13.02],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [14, 10.5, 16, 11.5], "texture": "#profession"},
+				"east": {"uv": [10, 10.5, 11, 11.5], "texture": "#profession"},
+				"south": {"uv": [11, 10.5, 13, 11.5], "rotation": 180, "texture": "#profession"},
+				"west": {"uv": [13, 10.5, 14, 11.5], "texture": "#profession"},
+				"up": {"uv": [11, 9.5, 13, 10.5], "rotation": 180, "texture": "#profession"},
+				"down": {"uv": [13, 9.5, 15, 10.5], "texture": "#profession"}
+			}
+		},
+		{
+			"name": "Profession_Head",
+			"from": [3.98, 20.98, 3.98],
+			"to": [12.02, 31.02, 12.02],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 21, 8]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4.5], "texture": "#profession"},
+				"east": {"uv": [0, 2, 2, 4.5], "texture": "#profession"},
+				"south": {"uv": [6, 2, 8, 4.5], "texture": "#profession"},
+				"west": {"uv": [4, 2, 6, 4.5], "texture": "#profession"},
+				"up": {"uv": [2, 0, 4, 2], "texture": "#profession"},
+				"down": {"uv": [4, 0, 6, 2], "texture": "#profession"}
+			}
+		},
+		{
+			"name": "Profession_Hat",
+			"from": [3.68, 20.68, 3.68],
+			"to": [12.32, 31.32, 12.32],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 21, 8]},
+			"faces": {
+				"north": {"uv": [10, 2, 12, 4.5], "texture": "#profession"},
+				"east": {"uv": [8, 2, 10, 4.5], "texture": "#profession"},
+				"south": {"uv": [14, 2, 16, 4.5], "texture": "#profession"},
+				"west": {"uv": [12, 2, 14, 4.5], "texture": "#profession"},
+				"up": {"uv": [10, 0, 12, 2], "rotation": 180, "texture": "#profession"},
+				"down": {"uv": [12, 0, 14, 2], "texture": "#profession"}
+			}
+		},
+		{
+			"name": "Profession_HatExtra",
+			"from": [-0.64, 26.93, -0.64],
+			"to": [16.64, 26.93, 16.56],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 21, 8]},
+			"faces": {
+				"up": {"uv": [7.75, 12, 11.75, 16], "rotation": 180, "texture": "#profession"}
+			}
+		},
+		{
+			"name": "Profession_Body",
+			"from": [3.98, 9.98, 4.98],
+			"to": [12.02, 21.02, 11.02],
+			"faces": {
+				"north": {"uv": [5.5, 6.5, 7.5, 9.5], "texture": "#profession"},
+				"east": {"uv": [4, 6.5, 5.5, 9.5], "texture": "#profession"},
+				"south": {"uv": [9, 6.5, 11, 9.5], "texture": "#profession"},
+				"west": {"uv": [7.5, 6.5, 9, 9.5], "texture": "#profession"},
+				"up": {"uv": [5.5, 5, 7.5, 6.5], "texture": "#profession"},
+				"down": {"uv": [7.5, 5, 9.5, 6.5], "texture": "#profession"}
+			}
+		},
+		{
+			"name": "ProfessionLevel_Robe",
+			"from": [3.87, 1.87, 4.87],
+			"to": [12.13, 21.13, 11.13],
+			"faces": {
+				"north": {"uv": [1.5, 11, 3.5, 16], "texture": "#profession_level"},
+				"east": {"uv": [0, 11, 1.5, 16], "texture": "#profession_level"},
+				"south": {"uv": [5, 11, 7, 16], "texture": "#profession_level"},
+				"west": {"uv": [3.5, 11, 5, 16], "texture": "#profession_level"},
+				"up": {"uv": [1.5, 9.5, 3.5, 11], "texture": "#profession_level"},
+				"down": {"uv": [3.5, 9.5, 5.5, 11], "texture": "#profession_level"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Villager",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+		},
+		{
+			"name": "Type",
+			"origin": [8, 8, 8],
+			"children": [9, 10, 11, 12, 13, 14, 15, 16]
+		},
+		{
+			"name": "Profession",
+			"origin": [8, 8, 8],
+			"children": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+		},
+		{
+			"name": "ProfessionLevel",
+			"origin": [8, 8, 8],
+			"children": [27]
+		}
+	]
+}

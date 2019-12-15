@@ -1,0 +1,7 @@
+{
+	"credit": "Made by McTsts with Blockbench",
+	"textures": {
+		"profession": "entity/villager/profession/shepherd"
+	},
+	"parent": "item/villager_parent/shaking_1/type/hat_low"
+}

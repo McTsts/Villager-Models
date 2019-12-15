@@ -1,0 +1,8 @@
+{
+	"credit": "Made by McTsts with Blockbench",
+	"textures": {
+		"type": "entity/villager/type/plains",
+		"profession_level": "entity/villager/profession_level/iron"
+	},
+	"parent": "item/villager_parent/down/profession/weaponsmith"
+}

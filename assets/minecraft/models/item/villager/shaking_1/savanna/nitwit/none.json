@@ -1,0 +1,8 @@
+{
+	"credit": "Made by McTsts with Blockbench",
+	"textures": {
+		"type": "entity/villager/type/savanna",
+		"profession_level": "entity/villager/profession_level/none"
+	},
+	"parent": "item/villager_parent/shaking_1/profession/nitwit"
+}

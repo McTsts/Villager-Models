@@ -1,9 +1,9 @@
 {
 	"credit": "Made by McTsts with Blockbench",
+	"parent": "item/villager_parent/villager",
 	"textures": {
 		"villager": "entity/villager/villager"
 	},
-	"parent": "item/villager_parent/villager",
 	"elements": [
 		{
 			"name": "Villager_Robe",
@@ -386,12 +386,12 @@
 		{
 			"name": "Profession",
 			"origin": [8, 8, 8],
-			"children": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+			"children": [17, 18, 19, 20, 21, 22, 23, 24, 25]
 		},
 		{
 			"name": "ProfessionLevel",
 			"origin": [8, 8, 8],
-			"children": [27]
+			"children": [26]
 		}
 	]
 }

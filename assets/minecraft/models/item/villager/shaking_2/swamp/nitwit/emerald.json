@@ -1,0 +1,8 @@
+{
+	"credit": "Made by McTsts with Blockbench",
+	"textures": {
+		"type": "entity/villager/type/swamp",
+		"profession_level": "entity/villager/profession_level/emerald"
+	},
+	"parent": "item/villager_parent/shaking_2/profession/nitwit"
+}

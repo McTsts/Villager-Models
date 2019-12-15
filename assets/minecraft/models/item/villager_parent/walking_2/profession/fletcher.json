@@ -1,0 +1,7 @@
+{
+	"credit": "Made by McTsts with Blockbench",
+	"textures": {
+		"profession": "entity/villager/profession/fletcher"
+	},
+	"parent": "item/villager_parent/walking_2/type/no_hat"
+}

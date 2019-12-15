@@ -1,0 +1,8 @@
+{
+	"credit": "Made by McTsts with Blockbench",
+	"textures": {
+		"type": "entity/villager/type/snow",
+		"profession_level": "entity/villager/profession_level/stone"
+	},
+	"parent": "item/villager_parent/shaking_2/profession/weaponsmith"
+}
