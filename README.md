@@ -30,6 +30,12 @@ Concatenating this gives `00060602` which as a number is `60602`, so the village
 
 #### Model
 - 00 Standing
+- 01 Looking Up
+- 02 Looking Down
+- 03 Shaking Head (1)
+- 04 Shaking Head (2)
+- 05 Walking (1)
+- 06 Walking (2)
 
 #### Type
 - 00 None
